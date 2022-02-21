@@ -9,4 +9,4 @@ The model was trained on the BMW Pricing Challenge dataset from Kaggle: https://
 ![](images/car_options.png)
 
 ## Result of the prediction
-![](images/price_predicted.png = 250*250)
+![](images/price_predicted.png = 250x250)
