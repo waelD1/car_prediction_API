@@ -6,7 +6,7 @@ Creation of an API that takes as input the various characteristics of a BMW (mod
 The model was trained on the BMW Pricing Challenge dataset from Kaggle: https://www.kaggle.com/danielkyrka/bmw-pricing-challenge
 # Prediction example
 
-## Home Page with the options
+## Home Page with options to choose
 ![](images/car_options.png)
 
 ## Result of the prediction
