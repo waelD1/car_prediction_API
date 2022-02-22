@@ -60,7 +60,7 @@ car_type = pd.get_dummies(data['car_type'], prefix='car_type')
 train_data = pd.concat([data, fuel, color, car_type], axis = 1)
 train_data.drop(['model_key', 'registration_date', 'fuel', 'paint_color', 'car_type', 'sold_at'], axis = 1, inplace = True)
 
-# Finds correlation between independent and dependent features
+# Find correlation between independent and dependent features
 plt.figure(figsize = (18,18))
 sns.heatmap(train_data.corr(), annot = True, cmap = "RdYlGn")
 plt.show()
