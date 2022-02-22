@@ -46,7 +46,7 @@ dict_lists = {
     'list_fuel' : list_fuel
     }
 
-#Save the lists automatically populate the dropdown lists
+#Save the lists to automatically populate the dropdown lists
 # for keys, values in dict_lists.items():
 #   with open(f'{keys}.pkl', 'wb') as f:
 #     pickle.dump(values, f)
