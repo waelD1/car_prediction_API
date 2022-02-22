@@ -30,7 +30,7 @@ labelencoder = preprocessing.LabelEncoder()
 # Assigning numerical values and storing in another column
 data['model_key_cat'] = labelencoder.fit_transform(data['model_key'])
 
-# Save the mapping to use it into the dropdown lists
+# Save the mapping to automatically populate the dropdown lists
 le_model_name_mapping = dict(zip(labelencoder.classes_, labelencoder.transform(labelencoder.classes_)))
 #with open('mapping_model.pkl', 'wb') as f:
 #  pickle.dump(le_model_name_mapping, f)'''
